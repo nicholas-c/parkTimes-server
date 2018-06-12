@@ -1,0 +1,110 @@
+{
+  "_args": [
+    [
+      "strapi-plugin-users-permissions@alpha",
+      "/var/www/vhosts/parktim.es/api/plugins/users-permissions"
+    ]
+  ],
+  "_from": "strapi-plugin-users-permissions@alpha",
+  "_id": "strapi-plugin-users-permissions@3.0.0-alpha.12.3",
+  "_inCache": true,
+  "_installable": true,
+  "_location": "/strapi-plugin-users-permissions",
+  "_nodeVersion": "10.0.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/strapi-plugin-users-permissions_3.0.0-alpha.12.3_1528361988223_0.7447951258556937"
+  },
+  "_npmUser": {
+    "email": "support@strapi.io",
+    "name": "strapi"
+  },
+  "_npmVersion": "5.1.0",
+  "_phantomChildren": {},
+  "_requested": {
+    "name": "strapi-plugin-users-permissions",
+    "raw": "strapi-plugin-users-permissions@alpha",
+    "rawSpec": "alpha",
+    "scope": null,
+    "spec": "alpha",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-alpha.12.3.tgz",
+  "_shasum": "5ab3ba79f797be3ae3a33688e0717902dc1e228e",
+  "_shrinkwrap": null,
+  "_spec": "strapi-plugin-users-permissions@alpha",
+  "_where": "/var/www/vhosts/parktim.es/api/plugins/users-permissions",
+  "author": {
+    "email": "hi@strapi.io",
+    "name": "Strapi team",
+    "url": "http://strapi.io"
+  },
+  "bugs": {
+    "url": "https://github.com/strapi/strapi/issues"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "grant-koa": "^3.8.1",
+    "jsonwebtoken": "^8.1.0",
+    "koa": "^2.1.0",
+    "purest": "^2.0.1",
+    "request": "^2.83.0",
+    "uuid": "^3.1.0"
+  },
+  "description": "Protect your API with a full-authentication process based on JWT",
+  "devDependencies": {
+    "strapi-helper-plugin": "3.0.0-alpha.12.3"
+  },
+  "directories": {},
+  "dist": {
+    "fileCount": 122,
+    "integrity": "sha512-68lYZV07VWq+rNgYGeIg/P7fMIc5Nh/p8DRpw8fXDBlqFNJtJghKD6IVUXNF1baJxBPj/s531Dh8yZV0Pl6CoQ==",
+    "npm-signature": "-----BEGIN PGP SIGNATURE-----\r\nVersion: OpenPGP.js v3.0.4\r\nComment: https://openpgpjs.org\r\n\r\nwsFcBAEBCAAQBQJbGPQECRA9TVsSAnZWagAADDQP/j3//mrgymw6/3pBDh2u\nRSK0Lj8Syj5S+O06AR6OLC+d0NjTybsDLi3cVKW1yKb5uHYmIPvBmOpLI9Bk\nz915vbfXUNqhohUlgdfaoJVEFkzze9n42eHMaAgZcWmc/gLkaSUafsPkEP1p\nL+MC4k8XTxBLobqArbbjmtpnQSH54Zqlf4kb/6INq/wd8MyVLe5jEda+Lx+5\n1jAh90kzhti30vp3k1+wouOZw1TMFXzHAwZhTTv3rOJgxt+2hylkFD71emSC\neYG6bn0PH8ZBNzHuzfQd3M+BWS9SXCGQTPY7RQN4EqOFv0Fd56y8D5KZ/7C2\nul7gIpRgUYddIqwYBBwbDlKRsGUPo+rIXTbPttE/IRL2FmFRTKumLAFbtZZh\n9nHa10/FiSdEL3BWhGhtEf3j/Bi2U+7DBs4HGFdp0JRPpd37m7JFSFR5c/je\nAE1bRRv1hCaBtJ60uI0oEBPlXIvj+H67w2dcJ4MEl9cwIsH2xZ4EZ7rq96oT\np3/IuKCHZxpHsBFZbiO8UAbIF2ImqAoPiHp43XrxN6XKtNght4qQlozdHurN\n6325VIQxpCOW9fY42HtGvrBcTaaoeiBYhjNhbPTEp8fAa+w7ed1C9F6um90F\nGYmtYDjQXhR8AJPVsH0GZ+BV0o9r0YmBtIUWMe8bt7FCKK90F4Nq8IInBTLc\nxh3a\r\n=7e+y\r\n-----END PGP SIGNATURE-----\r\n",
+    "shasum": "5ab3ba79f797be3ae3a33688e0717902dc1e228e",
+    "tarball": "https://registry.npmjs.org/strapi-plugin-users-permissions/-/strapi-plugin-users-permissions-3.0.0-alpha.12.3.tgz",
+    "unpackedSize": 1879469
+  },
+  "engines": {
+    "node": ">= 9.0.0",
+    "npm": ">= 5.0.0"
+  },
+  "homepage": "https://github.com/strapi/strapi#readme",
+  "license": "MIT",
+  "maintainers": [
+    {
+      "name": "strapi",
+      "email": "support@strapi.io"
+    }
+  ],
+  "name": "strapi-plugin-users-permissions",
+  "optionalDependencies": {},
+  "readme": "# Strapi plugin",
+  "readmeFilename": "README.md",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/strapi/strapi.git"
+  },
+  "scripts": {
+    "analyze": "node ./node_modules/strapi-helper-plugin/lib/internals/scripts/analyze.js",
+    "analyze:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf stats.json",
+    "build": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=production node node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "build:clean": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/rimraf admin/build",
+    "build:dev": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/node_modules/.bin/webpack --config node_modules/strapi-helper-plugin/lib/internals/webpack/webpack.prod.babel.js --color -p --progress",
+    "generate": "node ./node_modules/plop/plop.js --plopfile node_modules/strapi-helper-plugin/lib/internals/generators/index.js",
+    "preanalyze": "npm run analyze:clean",
+    "prebuild": "npm run build:clean",
+    "prepublishOnly": "IS_MONOREPO=true npm run build",
+    "prettier": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/prettier --single-quote --trailing-comma es5 --write \"{admin,__{tests,mocks}__}/**/*.js\"",
+    "start": "node ./node_modules/strapi-helper-plugin/node_modules/.bin/cross-env NODE_ENV=development node ./node_modules/strapi-helper-plugin/lib/server",
+    "test": "echo \"Error: no test specified\""
+  },
+  "strapi": {
+    "description": "users-permissions.plugin.description",
+    "icon": "users",
+    "name": "Roles & Permissions"
+  },
+  "version": "3.0.0-alpha.12.3"
+}

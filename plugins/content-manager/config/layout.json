@@ -1,0 +1,54 @@
+{
+  "park": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "ID": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      },
+      "Location": {
+        "appearance": ""
+      },
+      "Active": {
+        "appearance": ""
+      }
+    }
+  },
+  "ride": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Description": {
+        "appearance": ""
+      }
+    }
+  },
+  "status": {
+    "attributes": {
+      "Status": {
+        "appearance": ""
+      }
+    }
+  },
+  "waitTime": {
+    "attributes": {
+      "status": {
+        "appearance": ""
+      },
+      "singleRider": {
+        "appearance": ""
+      },
+      "postedWaitMinutes": {
+        "appearance": ""
+      },
+      "fastPass": {
+        "appearance": ""
+      }
+    }
+  }
+}

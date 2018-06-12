@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/ride",
+      "handler": "Ride.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ride/:_id",
+      "handler": "Ride.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/ride/count",
+      "handler": "Ride.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/ride",
+      "handler": "Ride.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/ride/:_id",
+      "handler": "Ride.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/ride/:_id",
+      "handler": "Ride.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,25 @@
+{
+  "connection": "default",
+  "collectionName": "waittime",
+  "info": {
+    "name": "waittime",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "singleRider": {
+      "type": "boolean"
+    },
+    "postedWaitMinutes": {
+      "type": "string"
+    },
+    "fastPass": {
+      "type": "json"
+    },
+    "status": {
+      "model": "status"
+    }
+  }
+}

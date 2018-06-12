@@ -1,0 +1,32 @@
+{
+  "connection": "default",
+  "collectionName": "park",
+  "info": {
+    "name": "park",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Location": {
+      "type": "json",
+      "required": true
+    },
+    "Active": {
+      "type": "boolean"
+    },
+    "Description": {
+      "type": "text",
+      "required": true
+    },
+    "Rides": {
+      "collection": "ride",
+      "via": "Park"
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "status",
+    "description": "Ride Status'"
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Status": {
+      "type": "string"
+    }
+  }
+}

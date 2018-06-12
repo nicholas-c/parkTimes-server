@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "ride",
+  "info": {
+    "name": "ride",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Park": {
+      "model": "park",
+      "via": "Rides"
+    },
+    "Status": {
+      "model": "status"
+    }
+  }
+}

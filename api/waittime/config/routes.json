@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/waittime",
+      "handler": "Waittime.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/waittime/:_id",
+      "handler": "Waittime.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/waittime/count",
+      "handler": "Waittime.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/waittime",
+      "handler": "Waittime.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/waittime/:_id",
+      "handler": "Waittime.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/waittime/:_id",
+      "handler": "Waittime.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
